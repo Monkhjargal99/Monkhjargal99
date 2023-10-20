@@ -2,7 +2,6 @@
     flex: 1;
 display: flex;
 flex-direction: column;
-justify-content: space-around;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -58,7 +57,7 @@ body{
 .container{
 display: flex;
 flex-direction: row;
-height: 100vh;
+ 
 }
 .top{
     display: flex;
@@ -101,7 +100,7 @@ height: 100vh;
     text-decoration: none;
     color: black;
 }
-.All h2 {
+.All h4 {
     
     border-radius: 15px;
     padding: 10px;
