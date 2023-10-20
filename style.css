@@ -1,4 +1,5 @@
 .left{
+    
     flex: 1;
 display: flex;
 flex-direction: column;
@@ -8,6 +9,11 @@ body{
 }
 @media screen and (max-width: 700px) 
 {
+    .container{
+        display: flex;
+        flex-direction: row;
+        }
+
     .left2 {
        display: flex;
     flex-direction: column;
@@ -57,7 +63,6 @@ body{
 .container{
 display: flex;
 flex-direction: row;
- 
 }
 .top{
     display: flex;
